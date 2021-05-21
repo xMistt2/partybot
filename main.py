@@ -15,7 +15,7 @@ else:
   sys.exit()
 
 os.system('pip install certifi')
-os.system('pip install -U PartyBotPackage')
+os.system('pip install PartyBotPackage --upgrade')
 os.system('clear')
 
 import uvloop
